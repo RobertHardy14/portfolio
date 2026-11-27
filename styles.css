@@ -78,6 +78,7 @@ h1, h2, h3, p { margin-top: 0; }
 .outputs-section { padding-top: 30px; }
 .evidence-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; margin-top: 42px; }
 .evidence-card { display: flex; min-width: 0; min-height: 420px; flex-direction: column; padding: 28px; border: 1px solid var(--line); background: var(--panel); }
+.evidence-card-featured { grid-column: 1 / -1; min-height: 0; }
 .evidence-project { margin: 0 0 12px; color: #c0ccd3; font-family: var(--mono); font-size: .8125rem; letter-spacing: .07em; line-height: 1.6; }
 .evidence-kind { margin: 0 0 14px; color: var(--cyan); font-family: var(--mono); font-size: .875rem; letter-spacing: .07em; line-height: 1.6; }
 .evidence-result { display: flex; align-items: baseline; gap: 12px; margin: 0 0 12px; }

@@ -44,6 +44,15 @@
 
         <div class="project-list">
           <article class="project-row">
+            <div class="project-marker"><span class="project-number" aria-hidden="true"></span><span class="project-kind kind-ai" data-i18n="agentLabKind">AGENTIC TESTING</span></div>
+            <div class="project-details">
+              <div class="project-heading"><h3>Playwright Agent Lab</h3><a class="project-arrow" href="https://github.com/RobertHardy14/playwright-agentic-test" target="_blank" rel="noopener noreferrer" aria-label="Open Playwright Agent Lab repository">↗</a></div>
+              <p data-i18n="agentLabDescription">An experiment that uses the official Playwright Test Agents to plan, generate, and triage cart tests on two Toolshop deployments. A rubric checks whether agent edits keep a known defect detectable.</p>
+              <div class="project-footer"><div class="project-tags"><span>Playwright</span><span>TypeScript</span><span>Codex</span></div><span class="project-context" data-i18n="agentLabNote">CUSTOM AGENT COMPARISON PENDING</span></div>
+            </div>
+          </article>
+
+          <article class="project-row">
             <div class="project-marker"><span class="project-number" aria-hidden="true"></span><span class="project-kind kind-ai" data-i18n="aiKind">AI QUALITY</span></div>
             <div class="project-details">
               <div class="project-heading"><h3>AI Exploratory Tester</h3><a class="project-arrow" href="https://github.com/RobertHardy14/ai-exploratory-tester" target="_blank" rel="noopener noreferrer" aria-label="Open AI Exploratory Tester repository">↗</a></div>
@@ -91,6 +100,15 @@
         </div>
 
         <div class="evidence-grid">
+          <article class="evidence-card evidence-card-featured">
+            <p class="evidence-project">PLAYWRIGHT AGENT LAB</p>
+            <p class="evidence-kind" data-i18n="evidenceAgentLabKind">OFFICIAL PLAYWRIGHT TEST AGENTS</p>
+            <h3 data-i18n="evidenceAgentLabTitle">Two generated tests caught a seeded cart defect</h3>
+            <p class="evidence-description" data-i18n="evidenceAgentLabDescription">Both tests passed on standard Toolshop and failed at the subtotal assertion on the deployment with seeded defects.</p>
+            <div class="evidence-proof"><strong data-i18n="evidenceAgentLabProofLabel">Healer outcome</strong><p data-i18n="evidenceAgentLabProof">The Healer diagnosed the product defect and marked the failing test as skipped on the buggy deployment in an experimental copy. The original tests still run the assertion.</p></div>
+            <a class="evidence-link" href="https://github.com/RobertHardy14/playwright-agentic-test/blob/main/evidence/official/run-summary.md" target="_blank" rel="noopener noreferrer" data-i18n="evidenceAgentLabLink">Read the run summary</a>
+          </article>
+
           <article class="evidence-card">
             <p class="evidence-project" data-i18n="evidenceAiProject">AI EXPLORATORY TESTER</p>
             <p class="evidence-kind" data-i18n="evidenceAiKind">OUTPUT GENERATION IMPLEMENTED</p>
